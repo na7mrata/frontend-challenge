@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1440px) {
+    body {
+        background-color:hsl(0, 0%, 8%);
+        font-family: Inter;
+        padding:60px;
+    }
+  }
+
+.main-div{
+    background-color:hsl(0, 0%, 12%) ;
+    width:350px;
+    height:450px;
+    align-items:center;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding:30px;
+
+    img{
+        height:60px;
+        width:60px;
+        border-radius: 50%;
+    }
+    h1{
+        color:hsl(0, 0%, 100%);
+    }
+    p{
+        color:hsl(0, 0%, 100%);
+        font-size: 14px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+
+        button{
+            background-color: hsl(0, 0%, 20%);
+            color:hsl(0, 0%, 100%);
+            border:none;
+            padding:10px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: hsl(75,94%,57%);
+            color:hsl(0, 0%, 8%);
+        }
+    }
+}
